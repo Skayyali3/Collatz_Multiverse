@@ -3,35 +3,37 @@ A professional-grade Python tool that explores the 3n + 1 problem, but with a tw
 
 ---
 
+##### If you want to check out the Research on this project and the findings: *[Click Here](https://github.com/saifkayyali3/Collatz_Research)*
+
+---
+
 ### Features Special to this Collatz Visualizer version
-**-Allows users to enter any number they want to in qn+r format**
+-Allows users to enter any number they want to in $qn+r$ format
 
-**-Allows users to test negative numbers in their own qn+r equation**
+-Allows users to test negative numbers in their own $qn+r$ equation
 
-**-Limit of 10000 steps of calculation and limit of googol digits of final number**
-
+-Limit of 10000 steps of calculation and limit of `googol` digits of final number
 
 
 ---
 
 ### Features found in both [CollatzStandard](https://github.com/saifkayyali3/CollatzStandard):
-**-Algorithmic Calculation: Fast processing of the Collatz sequence for any integer**
+-Algorithmic Calculation: Fast processing of the Collatz sequence for any integer
 
-**-Interactive Visualization: Generates dynamic line graphs using Matplotlib to show the "hailstone" peaks and valleys.**
+-Interactive Visualization: Generates dynamic line graphs using Matplotlib to show the "hailstone" peaks and valleys.
 
-**-Data Export: Utilizes Pandas to serialize sequence data into a `.csv` file for external analysis in Excel or SQL.**
+-Data Export: Utilizes Pandas to serialize sequence data into a `.csv` file for external analysis in Excel or SQL.
 
-**-Adaptive Logarithmic Scaling: Automatically switches to $Log_{10}$ visualization for unspeakably high numbers to prevent hardware overflow and maintain graph readability.**
+-Adaptive Logarithmic Scaling: Automatically switches to $Log_{10}$ visualization for unspeakably high numbers to prevent hardware overflow and maintain graph readability.
 
 ---
 
 ### Technologies Used:
-**Programming Language: Python**
+Programming Language: *Python*
 
-**Libraries Used: Tkinter, Pandas and Matplolib**
+Libraries Used: `Tkinter`, `Pandas` and `Matplolib`
 
-
-**Concepts: Data Engineering pipelines, State Management, Mathematical Modeling.**
+Concepts: Data Engineering pipelines, State Management, Mathematical Modeling.
 
 ---
 
