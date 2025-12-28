@@ -46,7 +46,7 @@ def update_ui_state(status, bg, fg, is_loop=False, loop_members=None):
         if len(loop_members) > 50: loop_str += "... (See Export)"
         msg += f"\n\nLoop Detected ({len(loop_members)} steps):\n[{loop_str}]"
 
-    if steps < 400 and abs(max_v) <= 1e14: 
+    if steps < 200 and abs(max_v) <= 1e14: 
         if not is_loop: msg += f"\n\nFull Sequence: {last_sequence}"
     else:
         msg += "\n\n(Sequence too long for display - Use 'Export CSV' for full data)"
@@ -101,7 +101,7 @@ def collatz():
             
             last_sequence.append(n)
             seen.add(n)
-            if len(last_sequence) > 15000 or abs(n) > 1e100:
+            if len(last_sequence) > 10000 or abs(n) > 1e100:
                 update_ui_state("Escape Velocity Hit (Limits)", "black", "yellow")
                 break
     except (OverflowError, MemoryError):
