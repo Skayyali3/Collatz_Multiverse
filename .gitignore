@@ -12,10 +12,11 @@ env/
 Thumbs.db
 desktop.ini
 
-# User data that may accidentally enter
+# User data
 *.csv
 
-# Exe files created by PyInstaller
+# PyInstaller
 dist/
 build/
 *.spec
+*.exe
