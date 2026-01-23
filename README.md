@@ -5,7 +5,7 @@ A professional-grade Python tool that explores the 3n + 1 problem, but with a tw
 
 #### Note: entered numbers lose precision as they become more unspeakably high
 
-#### To test unspeakably high numbers accurately or see the Research behind this project: *[Click Here](https://github.com/saifkayyali3/Collatz_Research)*
+#### To test unspeakably high numbers accurately or see the Research behind this project: *[Click Here](https://github.com/Skayyali3/Collatz_Research)*
 
 ---
 
@@ -18,7 +18,7 @@ A professional-grade Python tool that explores the 3n + 1 problem, but with a tw
 
 ---
 
-## Features found in both [Collatz Standard](https://github.com/saifkayyali3/CollatzStandard) and Collatz Multiverse:
+## Features found in both [Collatz Standard](https://github.com/Skayyali3/CollatzStandard) and Collatz Multiverse:
 - Algorithmic Calculation: Fast processing of the Collatz sequence for any integer
 
 - Interactive Visualization: Generates dynamic line graphs using Matplotlib to show the "hailstone" peaks and valleys.
@@ -39,11 +39,9 @@ Concepts: Data Engineering pipelines, State Management, Mathematical Modeling.
 ---
 
 ## How to Run:
-Follow these steps to run the project locally:
-
 ### 1. Clone the repository and enter:
 ```bash
-git clone https://github.com/saifkayyali3/Collatz-Multiverse.git
+git clone https://github.com/Skayyali3/Collatz_Multiverse.git
 cd Collatz_Multiverse
 ```
 ### 2. Make a virtual environment
@@ -66,7 +64,7 @@ python Collatz_Multiverse.py
 ```
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the **[LICENSE](LICENSE)** file for details.
 
 ## Author
 **Saif Kayyali**
