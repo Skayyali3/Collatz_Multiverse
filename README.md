@@ -1,5 +1,5 @@
 # Collatz Multiverse: A Visualizer and Data Exporter
-A professional-grade Python tool that explores the 3n + 1 problem, but with a twist of allowing users to replace the multiplier (3) and modifier (+1) with a number of their desires in the format *qn+r*. This application doesn't just calculate sequences; it provides a full suite for data analysis and visualization. 
+A high-caliber Python tool that explores the 3n + 1 problem, but with a twist of allowing users to replace the multiplier (3) and modifier (+1) with a number of their desires in the format *qn+r* and test any number on them.
 
 ---
 
@@ -60,7 +60,6 @@ pip install -r requirements.txt
 ### 4. Run
 ```bash
 python Collatz_Multiverse.py
-
 ```
 ## License
 
